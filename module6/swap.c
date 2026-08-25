@@ -27,11 +27,5 @@ int main(void) {
     broken_swap(x, y);
     printf("After broken swap: x = %d, y = %d\n", x, y);
 
-    /*
-       The broken_swap function receives copies of the values, not the original addresses.
-       Because of that, the changes only affect the local variables inside the function,
-       and the original x and y values remain unchanged.
-    */
-
     return 0;
 }
